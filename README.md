@@ -62,11 +62,31 @@ My Algorithm includes three main steps:
 
 <h2>Step A: Data pre-processing</h2>
 
-in this Process, we will calculate the next three elements:
-1.<b>Regex rx_For_Pre_Processing():</b> Calculate the Regex to Identify the Candidate's Strings
-  
-2.	<b>Regex rx_For_Match():</b> Calculate the Regex Who Identify the matches String
-	
-3.	<b>Int CandidateStringLen():</b> Calculate the Length of the string
+in this Process, we will calculate the next four elements:
 
-4.	<b>string[] Text Lines():</b> Read the file.txt to an array. Each cell represents a row in the text file. 
+1.<b>Regex rx_For_Pre_Processing:</b> Calculate the Regex to Identify the Candidate's Strings
+  
+2.<b>Regex rx_For_Match:</b> Calculate the Regex Who Identify the matches String
+	
+3.<b>Int CandidateStringLen:</b> Calculate the Length of the string
+
+4.<b>string[] Text Lines:</b> Read the file.txt to an array. Each cell represents a row in the text file. 
+
+<h2>Step B: The map Phase</h2>
+The map task is done by means of Mapper Class.
+
+<b>The Map phase</b> processes take the text input file and provides the string who candidate for the match by the next  representation :
+
+(<key, Val> : <Row_In_the_text_file,  Location_In_the_row   >).
+
+The map Process include a use in Regular expression
+
+<h2>Step C: The Reduce phase</h2>
+
+The reduce task is done by means of Reducer Class:
+
+The Reduce phase (searching technique) will accept the input from the Map phase as a key-value pair with Row_In_the_text_file and Location_In_the_row. 
+
+Using searching technique, the combiner will check all the Key value pair and he will print to the screen the String how match for the Matching Regular Expression.
+
+
