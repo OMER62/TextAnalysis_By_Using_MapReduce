@@ -64,13 +64,13 @@ My Algorithm includes three main steps:
 
 in this Process, we will calculate the next four elements:
 
-1.<b>Regex rx_For_Pre_Processing:</b> Calculate the Regex to Identify the Candidate's Strings
+1.<b>(Regex) rx_For_Pre_Processing:</b> Calculate the Regex to Identify the Candidate's Strings
   
-2.<b>Regex rx_For_Match:</b> Calculate the Regex Who Identify the matches String
+2.<b>(Regex) rx_For_Match:</b> Calculate the Regex Who Identify the matches String
 	
-3.<b>Int CandidateStringLen:</b> Calculate the Length of the string
+3.<b>(int) CandidateStringLen:</b> Calculate the Length of the string
 
-4.<b>string[] Text Lines:</b> Read the file.txt to an array. Each cell represents a row in the text file. 
+4.<b>(string[]) Text Lines:</b> Read the file.txt to an array. Each cell represents a row in the text file. 
 
 <h2>Step B: The map Phase</h2>
 The map task is done by means of Mapper Class.
