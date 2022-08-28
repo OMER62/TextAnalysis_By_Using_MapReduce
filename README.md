@@ -60,3 +60,13 @@ My Algorithm includes three main steps:
 
 <b>Step C:</b> The Reduce phase
 
+<h2>Step A: Data pre-processing</h2>
+
+in this Process, we will calculate the next three elements:
+1.<b>Regex rx_For_Pre_Processing():</b> Calculate the Regex to Identify the Candidate's Strings
+  
+2.	<b>Regex rx_For_Match():</b> Calculate the Regex Who Identify the matches String
+	
+3.	<b>Int CandidateStringLen():</b> Calculate the Length of the string
+
+4.	<b>string[] Text Lines():</b> Read the file.txt to an array. Each cell represents a row in the text file. 
