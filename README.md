@@ -27,18 +27,15 @@ The program will output the locations of te keword in the txt file, in the next 
 [Row 1]:Football player in the world
 </br>
 [Row 2]:Neta Lavi6 is a legend
-
+<pre></pre>
 
 <h3>Example 1:</h3>
 
 <b>Input:</b>
 
 •<b>Text:</b> NetaLavi.txt
-
 •<b>Keyword:</b> Neta
-
 •<b>ThreadsNumber:</b>2
-
 •<b>Delta:</b>0
 
 <b>Output:</b>
@@ -51,11 +48,8 @@ The program will output the locations of te keword in the txt file, in the next 
 <b>Input:</b>
 
 •<b>Text:</b> NetaLavi.txt
-
 •<b>Keyword:</b> Ni
-
 •<b>ThreadsNumber:</b>4
-
 •<b>Delta:</b>7
 
 <b>Output:</b>
@@ -68,11 +62,8 @@ The program will output the locations of te keword in the txt file, in the next 
 <b>Input:</b>
 
 •<b>Text:</b> NetaLavi.txt
-
 •<b>Keyword:</b> al
-
 •<b>ThreadsNumber:</b>3
-
 •<b>Delta:</b>2
 
 <b>Output:</b>
@@ -84,9 +75,9 @@ The program will output the locations of te keword in the txt file, in the next 
 <pre></pre>
 My program is based on The MapReduce algorithm and the Regular Expression tool.
 
-•	<b>Regular Expression:</b> A regular expression is a sequence of characters that specifies a search pattern in the text. Usually, such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. 
+•<b>Regular Expression:</b> A regular expression is a sequence of characters that specifies a search pattern in the text. Usually, such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. 
 
-•	<b>The MapReduce algorithm:</b> MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel. The MapReduce algorithm contains two important tasks, namely Map and Reduce. Mapper class takes the input and maps it. The output of the Mapper class is used as input by the Reducer class, which in turn searches for matching pairs and reduces them.
+•<b>The MapReduce algorithm:</b> MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel. The MapReduce algorithm contains two important tasks, namely Map and Reduce. Mapper class takes the input and maps it. The output of the Mapper class is used as input by the Reducer class, which in turn searches for matching pairs and reduces them.
 
 
 <b>Why use these two methods?</b>
