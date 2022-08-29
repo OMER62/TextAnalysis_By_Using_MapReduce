@@ -73,7 +73,7 @@ The program will output the locations of te keword in the txt file, in the next 
 [2,3],
 [2,14]
 <pre></pre>
-My program is based on The MapReduce algorithm and the Regular Expression tool.
+My program is based on The MapReduce algorithm and the Regular Expression tools.
 
 •<b>Regular Expression:</b> A regular expression is a sequence of characters that specifies a search pattern in the text. Usually, such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. 
 
